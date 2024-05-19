@@ -1,0 +1,126 @@
+/* IMPORT */
+/* nothing yet */
+
+
+
+/* DOCUMENT STYLES */
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+
+/* COMMON STYLE CLASSES */
+.opacity-change {
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+/* .opacity-change2 {
+    opacity: 0;
+    transition: opacity 0.2s;
+} */
+/* For development purposes */
+
+.opacity-change:hover/*, .opacity-change2:hover*/ {
+    opacity: 1;
+}
+
+
+
+/* THUMBNAILS */
+.thumbnails {
+    display: flex;
+    justify-content: center;
+}
+
+.thumb-box {
+    z-index: 100;
+    position: fixed;
+    bottom: 0vh;
+    height: 20vh;
+    width: 95%;
+    display: flex;
+    overflow-y: hidden;
+    border-radius: 20px;
+}
+
+
+
+/* NEXT & PREVIOUS IMAGE BUTTONS */
+button {
+    all: unset;
+}
+
+.img-buttons {
+    z-index: 100;
+    position: fixed;
+    height: 322px;
+    width: 63px;
+    bottom: 42vh;
+}
+
+#next-img {
+    background-image: url(./buttons/arrow-right-small.png);
+    right: 0px;
+}
+
+#prev-img {
+    background-image: url(./buttons/arrow-left-small.png);
+    left: 0px;
+}
+
+
+
+/* AUDIO PLAYER */
+/* `background-image: url;` inline style can be modified by the JavaScript file */
+#play-pause-btn {
+    z-index: 100;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    height: 100px;
+    width: 100px;
+    background-image: url(./buttons/button-play.png);
+}
+
+
+
+/* GALLERY IMAGE */
+.gallery {
+    margin: 20px;
+}
+
+#view-gallery-img {
+    position: static;  /* generic placeholder */
+}
+
+/* Elements under this class are created by the JavaScript file */
+.gallery-img {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 75vh;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+
+
+/* BACKGROUND IMAGE */
+#view-bg-img {
+    position: static;  /* generic placeholder */
+}
+
+/* Elements under this class are created by the JavaScript file */
+.background-img {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    filter: blur(5px);
+    opacity: 0.5;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
