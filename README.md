@@ -39,12 +39,7 @@ Some issues I came across with the website, and thinking about ways to address t
 
 
 # Attributions
-### Fonts
-- VT323, designed by Peter Hull (via Google Fonts)
-    - https://fonts.google.com/specimen/VT323
-
 ### Audio
-
 - "Rainy Day In Town With Birds Singing", by WhiteNoiseSleepers:
     - https://pixabay.com/sound-effects/rainy-day-in-town-with-birds-singing-194011/
 
